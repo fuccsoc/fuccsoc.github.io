@@ -8,7 +8,7 @@ export default async function Home() {
   return (
     <div className="flex items-center justify-center h-screen flex-col gap-4">
       <h1 className="font-black text-xl">Vladislav Gorodkov</h1>
-      <div className="flex flex-col gap-2 max-w-screen-md">
+      <div className="flex flex-col gap-2 max-w-screen-md px-8">
         <h2 className="font bold text-2xl text-center font-black opacity-30 italic">
           Developer
         </h2>
