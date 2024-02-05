@@ -6,7 +6,7 @@ import ClientData from "./ClientData";
 export default async function Home() {
   const data = await receiveData();
   return (
-    <div className="flex items-center justify-center h-screen flex-col gap-4">
+    <div className="flex items-center justify-center min-h-screen flex-col gap-4 py-10">
       <h1 className="font-black text-xl">Vladislav Gorodkov</h1>
       <div className="flex flex-col gap-2 max-w-screen-md px-8">
         <h2 className="font bold text-2xl text-center font-black opacity-30 italic">
