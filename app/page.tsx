@@ -52,6 +52,15 @@ export default async function Home() {
                   <br />
                   It utilizes server action, so __THE WHOLE__ page renders on
                   the server (yeah, including data received from API)
+                  <br />
+                  This page also use SSR (for demonstration of skills) - you can
+                  check{" "}
+                  <Link
+                    href="https://github.com/fuccsoc/fuccsoc.github.io"
+                    className="text-blue-200"
+                  >
+                    it&apos;s sources.
+                  </Link>
                 </p>
               </div>
             </div>
@@ -89,8 +98,12 @@ export default async function Home() {
           telegram
         </Link>
       </div>
-      <div><code>This page was rendered when server time was {data}</code></div>
-      <div><ClientData /></div>
+      <div>
+        <code>This page was rendered when server time was {data}</code>
+      </div>
+      <div>
+        <ClientData />
+      </div>
     </div>
   );
 }
